@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form fill up</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Jhankar mahbub vaika pitha house</h1>
+    <form action="">
+        <div>
+            <label for="for-name">Name:</label>
+           <input type="text" name="name" placeholder="Enter your name" id="for-name">
+        </div> <br>
+        <div>
+            <label for="for-email">Email:</label>
+            <input type="text" name="email" placeholder="Enter your Email" id="for-email">
+        </div> <br>
+       <fieldset>
+           <legend>Select Yout Pitha</legend>
+           <div>
+               <label for="for-vapa"> 
+                   <input type="radio" name="pitha" id="for-vapa">vapa
+                </label>
+           </div>
+           <div>
+               <label for="for-chitoy">
+                  <input type="radio" name="pitha" id="for-chitoy">chitoi
+               </label>
+           </div>
+           <div>
+               <label for="for-sondes">
+                   <input type="radio" name="pitha" id="for-sondes">sondes
+               </label>
+           </div>
+       </fieldset> <br>
+       <fieldset>
+           <legend>Choose your vortha</legend>
+           <div>
+               <label for="for-shutki">
+                   <input type="checkbox" name="vortha" id="for-shutki">shutki
+               </label>
+           </div>
+           <div>
+               <label for="for-alu">
+                   <input type="checkbox" name="vortha" id="for-alu">alu
+               </label>
+           </div>
+           <div>
+               <label for="for-begun">
+                   <input type="checkbox" name="vortha" id="for-begun">begun
+               </label>
+           </div>
+       </fieldset>
+       <br>
+       <div>
+           Special instruction: <br>
+           <textarea name="text-area" id="" cols="30" rows="10">Start from here:Love you 
+           </textarea>
+       </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button disabled="disabled">Dis</button>
+    </form>
+</body>
+</html>
